@@ -1,0 +1,27 @@
+node_modules/
+/logs
+*.log
+npm-debug.log*
+
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+dist/
+.vite-inspect/
+
+.next/
+/out/
+
+.DS_Store # macOS
+.idea/ # JetBrains IDEs
+.vscode/ # VS Code (optional, as some settings can be useful to share with the team)
+*.pid
+*.seed
+*.pid.lock
+
+coverage/
+.last-run.json
+.nyc_output/
